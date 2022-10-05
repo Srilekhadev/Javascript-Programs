@@ -1,0 +1,28 @@
+<!-- Event in Js -->
+<html>
+<script language="JavaScript">
+function setvalue(str)
+{
+	document.f1.t1.value=str;
+}
+
+function copyvalue()
+{
+	document.f1.t2.value=document.f1.t1.value;
+}
+
+</script>
+<body>
+<form name="f1">
+<input type="text" name="t1" value="dev">
+<input type="text" name="t2" value="">  <br>
+
+<input type="button" name="b1" value="setvalue" onClick="setvalue('computers')">
+
+<input type="button" name="b2" value="copy" onClick="copyvalue()">
+
+</form>
+
+
+</body>
+</html>

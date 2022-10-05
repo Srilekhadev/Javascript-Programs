@@ -1,0 +1,29 @@
+<!-- Event in Js -->
+<html>
+<script language="JavaScript">
+function showmsg()
+{
+var flag=document.f1.c1.checked;
+//window.alert(flag);
+  if (flag==true)
+      document.f1.t1.value="check1 selected";
+  else
+     document.f1.t1.value="check1 de-selected";
+
+
+}
+
+
+</script>
+<body>
+<form name="f1">
+<input type="checkbox" name="c1" onclick="showmsg()">Check1
+<input type="text" name="t1" size="30">
+
+
+
+</form>
+
+
+</body>
+</html>
